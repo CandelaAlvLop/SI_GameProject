@@ -3,18 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - BlendPlane0
-  - BlendPlane1
+  tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Particles
+  - 
   - Water
   - UI
-  - BlendPlane0
-  - BlendPlane1
+  - 
+  - 
   - 
   - 
   - 
