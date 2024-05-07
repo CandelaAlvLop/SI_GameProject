@@ -3224,11 +3224,11 @@ MonoBehaviour:
   cameras:
   - {fileID: 342261394}
   - {fileID: 2041817079}
-  enableTracking: 1
-  numberOfPlayers: 4
+  enableTracking: 0
+  numberOfPlayers: 2
   numberOfBaseStations: 4
   screenToWorldPosTracking: 1
-  enableRotation: 1
+  enableRotation: 0
   enableYAxis: 1
   swapXZ: 1
   invertX: 1
