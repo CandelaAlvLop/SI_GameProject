@@ -8,9 +8,15 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     public Quaternion q;
     public bool manual;
+
+    public AudioClip collisionSound;
+    private AudioSource audioSource;
+    private bool hasPlayedSound = false;
+
+
     void Start()
     {
-
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -30,4 +36,28 @@ public class PlayerMovement : MonoBehaviour
         Matrix4x4 mat = Matrix4x4.Rotate(quat);
         transform.localRotation = quat;
     }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Crate") && !hasPlayedSound)
+        {
+            Debug.Log("Picking object");
+            if (collisionSound != null && audioSource != null)
+            {
+                audioSource.PlayOneShot(collisionSound);
+                hasPlayedSound = true; 
+            }
+        }
+
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Crate")) 
+        {
+            hasPlayedSound = false; 
+        }
+    }
+
+
 }
