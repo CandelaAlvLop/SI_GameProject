@@ -8,4 +8,6 @@ The scripts we've modified so far focus on player movement. In particular, in th
 
 In addition, we have integrated sounds related to the action of picking up objects and the pizza cooking process.
 
+Regarding the build project we include the BuildsProject folder inside the release and inside of the github project.
+
 Members of the group: Laia Ejarque Salvador, Nerea Ferrara Ripoll, Candela Álvarez López 
