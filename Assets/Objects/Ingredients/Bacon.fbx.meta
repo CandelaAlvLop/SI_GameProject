@@ -3,27 +3,7 @@ guid: d6b199de92cd9484c91938bde7e9cbe3
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: LightYellow
-    second: {fileID: 2100000, guid: 559eb098a693fc946bd98b77013108dd, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Meat1
-    second: {fileID: 2100000, guid: b85ed5d050ca1d540999a535b952f5f7, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Meat2
-    second: {fileID: 2100000, guid: a6dc824443779f94788f7fe57b947ddf, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Meat3
-    second: {fileID: 2100000, guid: 029ee59d30dcdab488d0205133f2a3f6, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
