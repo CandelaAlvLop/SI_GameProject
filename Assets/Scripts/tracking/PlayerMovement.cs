@@ -41,6 +41,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (other.CompareTag("Crate") && !hasPlayedSound)
         {
+            Debug.Log("Picking object");
             if (collisionSound != null && audioSource != null)
             {
                 audioSource.PlayOneShot(collisionSound);
